@@ -1,9 +1,9 @@
 import React from 'react'
 
-const page = () => { 
+const page = () => {
   return (
       <div>
-          <h1>Data Protection</h1>
+          <h1>Backup and Recovery</h1>
     </div>
   )
 }

@@ -1,0 +1,42 @@
+
+.grid-row{
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.grid-row-reverse{
+    flex-direction: row-reverse;
+}
+
+.grid-row-reverse .image{
+    margin-left: 100px;
+}
+
+.image{
+    width: 550px;
+    height: 350px;
+}
+
+.responsive-image{
+    display: none;
+}
+
+@media (max-width: 1280px){
+    .image{
+        width: 100%;
+        
+    }
+}
+
+@media (max-width: 835px){
+    .grid-col{
+        width: 100%;
+    }
+    .image{
+        display: none;
+    }
+    .responsive-image{
+        display: block;
+        margin-left: 0 !important;
+    }
+}
